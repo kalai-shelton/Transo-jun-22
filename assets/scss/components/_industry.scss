@@ -142,33 +142,33 @@ a.active {
   width: 120px;
   margin-top: 15px;
   margin-left: 25px;
-  @include mobile {
+  @include tablet {
     width: 80px;
-    margin-top: 30px;
-    align-items: center;
+    margin-top: 10px;
+    align-self: center;
   }
 }
 .threeplcasestudyh4 {
   text-align: left;
-  @include mobile {
+  @include tablet {
     text-align: center;
   }
 }
 .threeplcasestudyP {
-  text-align: left;
-}
-.threeplcasestudy1 {
-  //align-items: center;
-  
-  @include mobile {
-   // text-align: justify;
+  text-align: justify;
+ 
+  @include tablet{
+    padding-left: 30px;
   }
 }
-.threeplcasestudy p {
-  padding-top: 20px;
-  text-align: justify;
-
+.threepl-content {
+  padding: 20px;
+  align-self: center;
+  @include mobile {
+    align-self:flex-end;
+  }
 }
+
 
 .threeplImg {
   width: 100%;
